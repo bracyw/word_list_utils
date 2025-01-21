@@ -34,6 +34,20 @@ run `python3 -m bin.main verify <path to word list> --output-dir <path to other 
 #### Output 
 
 Will print to terminal 
+
+
+### Summarize memory (`summarize`)
+#### Requirements
+already have txt files in another directory that you want to summarize by taking the first word in each file and putting them into one summary file.
+
+#### Usage
+open a terminal in the project directory
+run `python3 -m bin.main summarize --output-dir <path to other files dir>` on mac
+(or windows / linux distro equivalent)
+
+#### Output 
+
+Will save a file named `summary_of_words.txt` to your output directory, that contains the first word in each of the files in the output directory given (will also save that file there).
 ## Contribution Guide
 
 Feel free to add on to this... in fact any time travelers that find out cool ways to speed up reading form files feel free to put up a pr. 
