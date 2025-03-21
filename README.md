@@ -48,7 +48,6 @@ run `python3 -m bin.main summarize --output-dir <path to other files dir>` on ma
 #### Output 
 
 Will save a file named `summary_of_words.txt` to your output directory, that contains the first word in each of the files in the output directory given (will also save that file there).
-## Contribution Guide
 
 Feel free to add on to this... in fact any time travelers that find out cool ways to speed up reading form files feel free to put up a pr. 
 
